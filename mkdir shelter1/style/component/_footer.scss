@@ -1,0 +1,100 @@
+.footer{
+    background: radial-gradient(50% 215.42% at 0% 0%, #5B483A 0%, #262425 100%);
+    opacity: 0.9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px 0 40px;
+    background-size: cover;
+} 
+
+.footer__wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+    .footer__wrapper{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: auto;
+    }
+}
+
+
+.layout-2-column{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.contact-us__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 16px 0px 60px 0px;
+    align-items: start;
+}
+
+.geo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 16px 0px 60px 0px;
+    align-items: start;
+}
+
+.geo1{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+
+.geo2{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+
+.h2_footer{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    font-family: Georgia;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 2.1px;
+    color:white;
+}
+
+.h3_footer{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    justify-content: space-around;
+    font-family: Georgia;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%;
+    letter-spacing: 1.2px;
+    color:$color-secondary_color
+}
+
+
+.email{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.tel{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+

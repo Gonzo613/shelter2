@@ -1,0 +1,126 @@
+.ourFriends{
+    background-color: $color-background;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.pets_content{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 60px;
+}
+.wrapper_ourFriends{
+    display: flex;
+    flex-direction: column;
+}
+
+.heading_ourFriends{
+    text-align: center;
+    color: $color-heading_two;
+}
+
+.all_card_pets{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.layout-3-column{
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    margin: 0 auto;
+   
+}
+
+@media (max-width: 1200px) {
+    .layout-3-column {
+        display: flex;
+        justify-content: center;
+        gap: 0px 40px;
+        max-width: 580px;}
+        
+}
+
+.arrow{
+    padding: 15px 17px;
+    border-radius: 100px;
+    border: 2px solid $color-secondary_color;
+    transition: 0.5s;
+    
+}
+.arrow:hover{
+    background-color: $color-secondary_color;
+    
+}
+
+.cards__pets{
+    width: 27rem;
+    height: 43.5rem;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 270px;
+    height: 435px;
+    padding-bottom: 30px;
+    border-radius: 9px;
+    transition: 0.5s;
+}
+
+.cards__pets_woddy{
+    width: 27rem;
+    height: 43.5rem;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 270px;
+    height: 435px;
+    padding-bottom: 30px;
+    border-radius: 9px;
+    transition: 0.5s;}
+
+    @media (max-width: 1200px) {
+        .cards__pets_woddy{
+            display: none;}
+}
+
+@media screen and (max-width: 768px) {
+    .cards__pets_jennifer{
+        display: none;}
+}
+
+
+.cards__pets:hover{
+    box-shadow: 
+    -10px -10px 15px rgba(255, 255, 255, 0.5),
+    10px 10px 15px rgba(70, 70, 70, 0.12);
+
+    
+}
+
+.text_pets{
+    text-align: center;
+    font-family: Georgia;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    color:$color-heading_two
+}
+
+
+
+
+
+
+
+
+
+

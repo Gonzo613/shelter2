@@ -1,0 +1,100 @@
+.header_our{
+        margin: 0;
+        padding: 30px;
+        box-sizing: border-box;
+        display: block;
+        height: 120px;
+}
+
+
+.main_screen_our_pets{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background: white;
+        opacity: 0.9;
+}
+
+.logo_title_white{
+   
+        font-family: Georgia;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 110%;
+        letter-spacing: 0.06em;
+        color: $color-heading_two;
+        text-decoration: none;
+        
+    }
+    .navigation__link-active_our{
+        list-style: none;
+        color: $color-heading_two;
+        cursor: pointer;
+        font-family: Arial;
+        border-bottom: 2px solid $color-main;
+        font-size: 15px;
+    }
+
+
+    .navigation__link_our{
+        list-style: none;
+        color: $color-heading_two;
+        cursor: pointer;
+        font-family: Arial;
+        text-align: left;
+        list-style-type: none;
+        text-decoration: none;
+        font-size: 15px;
+    }
+
+    .navigation__link_our:hover{
+        border-bottom: 2px solid $color-main;
+    }
+
+    .disable{
+        color: $color-heading_two;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .subtitles_our{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        letter-spacing: 0.1em;
+        color:$color-heading_two
+        
+    }
+
+    .burger__header_black{
+        display: inline-block;
+        width: 30px;
+        height: 2px;
+        background: black;
+    }
+
+    .layout-4-column{
+        display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px 40px
+    }
+
+    @media (max-width: 1200px) {
+        .cards__pets_scarlett{
+            display: none;}
+        .cards__pets_freddie{
+            display: none;} 
+}
+
+
+@media screen and (max-width: 768px) {
+    .cards__pets_sophia{
+        display: none;}
+    .cards__pets_timmy{
+        display: none;} 
+    .cards__pets_charly{
+            display: none;}
+}
+   
